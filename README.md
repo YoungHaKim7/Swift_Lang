@@ -20,9 +20,11 @@ https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
   - 아이폰 앱(코스 2까지 공짜 ㅎㅎ 굿)(2. true or false 까지)
     - https://apps.apple.com/kr/app/code-learn-swift-version/id1032546737
 
-# Swift - Getting-started
+# Swift - Getting-started(Ubuntu도 된다?)
 
 https://www.swift.org/getting-started/
+
+- https://www.swift.org/download/
 
 # Visual Studio Code Dev Containers 
 
