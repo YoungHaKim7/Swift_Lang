@@ -16,7 +16,8 @@ https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
 # iPhone App(Code Swift)
 
 - Code Swift
-  - 공부하기 좋다. 
+  - 공부하기 좋다.
+  - 아이폰 앱 https://apps.apple.com/kr/app/code-learn-swift-version/id1032546737
 
 # Visual Studio Code Dev Containers 
 
