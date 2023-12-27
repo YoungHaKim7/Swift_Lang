@@ -7,7 +7,11 @@ $ swift --version
 
 swift-driver version: 1.87.3 Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 Target: arm64-apple-macosx14.0
-  
+
+# Swift (Visual Studio Code)
+
+https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang  
+
 ```
 # Swift_Lang
 
