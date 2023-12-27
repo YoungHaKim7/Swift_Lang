@@ -1,3 +1,17 @@
+# Swift - Getting-started(Ubuntu도 된다?)
+
+https://www.swift.org/getting-started/
+
+- https://www.swift.org/download/
+
+- Swift Package 찾는곳 
+
+  - https://swiftpackageindex.com/
+
+<hr>
+
+<hr>
+
 # Xcode
 
 - macOS
@@ -22,17 +36,6 @@ https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
 
 <hr>
 
-# Swift - Getting-started(Ubuntu도 된다?)
-
-https://www.swift.org/getting-started/
-
-- https://www.swift.org/download/
-
-- Swift Package 찾는곳 
-
-  - https://swiftpackageindex.com/
-
-<hr>
 
 # Visual Studio Code Dev Containers 
 
