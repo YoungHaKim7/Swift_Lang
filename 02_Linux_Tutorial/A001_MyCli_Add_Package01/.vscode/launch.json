@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:A001_MyCli_Add_Package01}",
+            "name": "Debug MyCLIAddArg_parser",
+            "program": "${workspaceFolder:A001_MyCli_Add_Package01}/.build/debug/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Debug MyCLIAddArg_parser"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:A001_MyCli_Add_Package01}",
+            "name": "Release MyCLIAddArg_parser",
+            "program": "${workspaceFolder:A001_MyCli_Add_Package01}/.build/release/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Release MyCLIAddArg_parser"
+        }
+    ]
+}

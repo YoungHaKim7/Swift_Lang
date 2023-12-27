@@ -23,6 +23,54 @@
             "name": "Release MyCLIAdd (MyCli_Add_Package)",
             "program": "${workspaceFolder:03_linux_swift}/MyCli_Add_Package/.build/release/MyCLIAdd",
             "preLaunchTask": "swift: Build Release MyCLIAdd (MyCli_Add_Package)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:02_Linux_Tutorial}/A01_MyCli_Add_Package01",
+            "name": "Debug MyCLIAddArg_parser (A01_MyCli_Add_Package01)",
+            "program": "${workspaceFolder:02_Linux_Tutorial}/A01_MyCli_Add_Package01/.build/debug/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Debug MyCLIAddArg_parser (A01_MyCli_Add_Package01)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:02_Linux_Tutorial}/A01_MyCli_Add_Package01",
+            "name": "Release MyCLIAddArg_parser (A01_MyCli_Add_Package01)",
+            "program": "${workspaceFolder:02_Linux_Tutorial}/A01_MyCli_Add_Package01/.build/release/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Release MyCLIAddArg_parser (A01_MyCli_Add_Package01)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:02_Linux_Tutorial}/A001_MyCli_Add_Package01",
+            "name": "Debug MyCLIAddArg_parser (A001_MyCli_Add_Package01)",
+            "program": "${workspaceFolder:02_Linux_Tutorial}/A001_MyCli_Add_Package01/.build/debug/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Debug MyCLIAddArg_parser (A001_MyCli_Add_Package01)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:02_Linux_Tutorial}/A001_MyCli_Add_Package01",
+            "name": "Release MyCLIAddArg_parser (A001_MyCli_Add_Package01)",
+            "program": "${workspaceFolder:02_Linux_Tutorial}/A001_MyCli_Add_Package01/.build/release/MyCLIAddArg_parser",
+            "preLaunchTask": "swift: Build Release MyCLIAddArg_parser (A001_MyCli_Add_Package01)"
         }
     ]
 }
