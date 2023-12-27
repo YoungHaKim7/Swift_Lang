@@ -1,3 +1,9 @@
+<p align="center">
+  <img width=130px src="https://www.svgrepo.com/show/452110/swift.svg" />
+</p>
+
+<hr>
+
 # Swift - Getting-started(Ubuntu도 된다?)
 
 https://www.swift.org/getting-started/
