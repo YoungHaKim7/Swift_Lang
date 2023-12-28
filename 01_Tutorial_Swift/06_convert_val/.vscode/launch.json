@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:06_convert_val}",
+            "name": "Debug MyCli_ConvertVal",
+            "program": "${workspaceFolder:06_convert_val}/.build/debug/MyCli_ConvertVal",
+            "preLaunchTask": "swift: Build Debug MyCli_ConvertVal"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:06_convert_val}",
+            "name": "Release MyCli_ConvertVal",
+            "program": "${workspaceFolder:06_convert_val}/.build/release/MyCli_ConvertVal",
+            "preLaunchTask": "swift: Build Release MyCli_ConvertVal"
+        }
+    ]
+}

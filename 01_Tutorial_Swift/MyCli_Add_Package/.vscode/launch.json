@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MyCli_Add_Package}",
+            "name": "Debug MyCli_Package_Add",
+            "program": "${workspaceFolder:MyCli_Add_Package}/.build/debug/MyCli_Package_Add",
+            "preLaunchTask": "swift: Build Debug MyCli_Package_Add"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MyCli_Add_Package}",
+            "name": "Release MyCli_Package_Add",
+            "program": "${workspaceFolder:MyCli_Add_Package}/.build/release/MyCli_Package_Add",
+            "preLaunchTask": "swift: Build Release MyCli_Package_Add"
+        }
+    ]
+}

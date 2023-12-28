@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:05_implicitInt_Explicit}",
+            "name": "Debug MyCLIArg1",
+            "program": "${workspaceFolder:05_implicitInt_Explicit}/.build/debug/MyCLIArg1",
+            "preLaunchTask": "swift: Build Debug MyCLIArg1"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:05_implicitInt_Explicit}",
+            "name": "Release MyCLIArg1",
+            "program": "${workspaceFolder:05_implicitInt_Explicit}/.build/release/MyCLIArg1",
+            "preLaunchTask": "swift: Build Release MyCLIArg1"
+        }
+    ]
+}
