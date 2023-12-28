@@ -242,3 +242,24 @@ $ make
 Importantly, the actual build process can take up to an hour, depending on the resources of our machine.
 
 Finally, we’ll install Darling, build the Darling kernel module, and install darling_mach:
+
+- Error 해결 해야함.
+- 여기서 막힘 https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu
+
+```bash
+Including component: iokitd
+Found Python 2; enabling pre-compilation of Python bytecode
+Found required libraries; building with Metal support
+-- Found dsymutil: /home/gyoung/Utilities/clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04/bin/dsymutil
+-- Compiler include path detected as /home/gyoung/Utilities/clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04/lib/clang/17/include/
+-- Checking for module 'libavcodec'
+--   Package 'libavcodec', required by 'virtual:world', not found
+-- Checking for module 'libavformat'
+--   Package 'libavformat', required by 'virtual:world', not found
+-- Checking for module 'libavutil'
+--   Package 'libavutil', required by 'virtual:world', not found
+CMake Error at cmake/FindFFmpeg.cmake:86 (message):
+  Could not find libavcodec or libavformat or libavutil
+Call Stack (most recent call first):
+  src/CoreAudio/CMakeLists.txt:10 (find_package)
+```
