@@ -17,6 +17,20 @@ https://www.swift.org/getting-started/
 - Swift공식 문서
   - https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 
+## init
+```
+swift package init --name MyCLIAdd --type executable
+```
+
+- run
+```
+swift run
+
+or
+
+swift run MyCLIAdd
+```
+
 <hr>
 
 <hr>
@@ -108,8 +122,7 @@ DerivedData/
 timeline.xctimeline
 playground.xcworkspace
 
-## swift package init --name MyCLIAdd --type executable
-# Swift 
+# Swift ####
 .DS_Store
 /.build
 /Packages
@@ -118,6 +131,7 @@ DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+#####
 # Swift Package Manager
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
