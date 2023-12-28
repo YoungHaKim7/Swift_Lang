@@ -194,6 +194,8 @@ iOSInjectionProject/
 
 # 3. Darling
 
+- https://www.baeldung.com/linux/xcode
+
 - Darling is a translation layer that enables Linux users to run macOS applications. Currently, Darling works with simple graphical user interface (GUI) apps and several command-line apps. Hence, we can run the Xcode command-line tool using Darling.
 
 - 3.1. Build and Install Darling
