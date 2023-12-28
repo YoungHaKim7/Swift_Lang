@@ -4,7 +4,7 @@
 
 <hr>
 
-# Swift - Getting-started(Linux 도 된다?)
+# Swift - Getting-started(Linux 도 된다) 좋네 굿 
 
 https://www.swift.org/getting-started/
 
