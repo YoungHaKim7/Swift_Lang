@@ -72,7 +72,6 @@ https://github.com/swift-server/vscode-swift/blob/main/docs/remote-dev.md
 # .gitignore (Swift)
 
 ```
-
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -109,8 +108,17 @@ DerivedData/
 timeline.xctimeline
 playground.xcworkspace
 
+## swift package init --name MyCLIAdd --type executable
+# Swift 
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
 # Swift Package Manager
-#
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
@@ -163,5 +171,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-  
+
 ```
