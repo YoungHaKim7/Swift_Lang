@@ -34,6 +34,7 @@ DerivedData/
 timeline.xctimeline
 playground.xcworkspace
 
+## swift package init --name MyCLIAdd --type executable
 # Swift 
 .DS_Store
 /.build
