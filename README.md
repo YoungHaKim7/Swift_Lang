@@ -191,3 +191,51 @@ fastlane/test_output
 iOSInjectionProject/
 
 ```
+
+# 3. Darling
+
+- Darling is a translation layer that enables Linux users to run macOS applications. Currently, Darling works with simple graphical user interface (GUI) apps and several command-line apps. Hence, we can run the Xcode command-line tool using Darling.
+
+- 3.1. Build and Install Darling
+
+First, we’ll download the necessary dependencies for our Linux distro. For example, let’s download and install what’s required on Ubuntu:
+
+```
+$ sudo apt-get install cmake clang bison flex xz-utils libfuse-dev libudev-dev pkg-config \
+libc6-dev:i386 linux-headers-generic gcc-multilib libcap2-bin libcairo2-dev libgl1-mesa-dev \
+libtiff5-dev libfreetype6-dev libfreetype6-dev:i386 git libelf-dev libxml2-dev libegl1-mesa-dev \
+libfontconfig1-dev libbsd-dev
+```
+
+Next, let’s clone the Darling git repository to our local machine:
+
+```
+$ git clone --recursive https://github.com/darlinghq/darling.git
+```
+Then, we’ll change into the Darling clone directory:
+
+```
+$ cd darling
+```
+
+Now, let’s make a build directory for the build process:
+
+```
+$ mkdir build && cd build
+```
+
+Inside the build directory, we configure the build with CMake:
+
+```
+$ cmake ..
+```
+
+Now, let’s build Darling with make:
+
+```
+$ make
+```
+
+Importantly, the actual build process can take up to an hour, depending on the resources of our machine.
+
+Finally, we’ll install Darling, build the Darling kernel module, and install darling_mach:
