@@ -7,6 +7,8 @@
 # Swift - Getting-started(Linux 도 된다) 좋네 굿 
 
 - https://github.com/apple/swift
+- Linux에서 macOS가상 환경 설치해서 Xcode실행하기 ㅋㅋ
+  - https://www.baeldung.com/linux/xcode
 
 https://www.swift.org/getting-started/
 
