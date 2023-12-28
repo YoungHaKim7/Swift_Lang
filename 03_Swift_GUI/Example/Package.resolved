@@ -1,6 +1,14 @@
 {
   "pins" : [
     {
+      "identity" : "qlift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Longhanks/qlift",
+      "state" : {
+        "revision" : "ddab1f1ecc113ad4f8e05d2999c2734cdf706210"
+      }
+    },
+    {
       "identity" : "swift-cross-ui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/swift-cross-ui.git",

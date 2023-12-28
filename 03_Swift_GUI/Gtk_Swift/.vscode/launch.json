@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Gtk_Swift}",
+            "name": "Debug Gtk_Swift",
+            "program": "${workspaceFolder:Gtk_Swift}/.build/debug/Gtk_Swift",
+            "preLaunchTask": "swift: Build Debug Gtk_Swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Gtk_Swift}",
+            "name": "Release Gtk_Swift",
+            "program": "${workspaceFolder:Gtk_Swift}/.build/release/Gtk_Swift",
+            "preLaunchTask": "swift: Build Release Gtk_Swift"
+        }
+    ]
+}
