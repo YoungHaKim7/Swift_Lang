@@ -4,7 +4,7 @@
 
 <hr>
 
-# Swift - Getting-started(Ubuntu도 된다?)
+# Swift - Getting-started(Linux 도 된다?)
 
 https://www.swift.org/getting-started/
 
@@ -13,6 +13,9 @@ https://www.swift.org/getting-started/
 - Swift Package 찾는곳 
 
   - https://swiftpackageindex.com/
+
+- Swift공식 문서
+  - https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 
 <hr>
 
