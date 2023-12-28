@@ -193,6 +193,7 @@ iOSInjectionProject/
 ```
 
 # 3. Darling
+- https://github.com/microsoft/vcpkg#installing-macos-developer-tools
 
 - https://www.baeldung.com/linux/xcode
 
