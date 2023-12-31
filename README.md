@@ -281,3 +281,11 @@ usr/local/bin/darling
 // 가상환경 종료
 ./darling shutdown
 ```
+
+# 4.1. Install QEMU and KVM
+
+- To demonstrate, we’ll use the macOS-Simple-KVM project to set up a simple macOS VM in QEMU/KVM setup. For this setup, the Linux system must have:
+
+https://www.baeldung.com/linux/xcode
+
+https://manpages.ubuntu.com/manpages/xenial/man1/qemu-img.1.html
