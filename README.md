@@ -270,6 +270,8 @@ Call Stack (most recent call first):
 ```bash
 [/Volumes/SystemRoot/usr/local/bin]$
 
+[/Volumes/DarlingEmulatedDrive/Users/gyoung]
+
 //
 usr/local/bin/darling
 
