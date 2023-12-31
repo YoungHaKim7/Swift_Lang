@@ -8,11 +8,13 @@ func fetchThrumbnail(for id: String, completion: @escaping (UIImage?, Error?) ->
 		} else {
 			// UIImage(data:)
 			guard let mage = UIImage(data: data!) else {
+			completion(nil, FetchError.badImage)
 				return
 			}
 			// prepareThumbnail(of:completionHandler:)
 			image.prepareThumbnale(of: CGSize(width: 40, height:40)) { thumbnail in
 				guard let thumbnail = thumbnail else {
+					completion(nil, FetchError.badImage)
 					return
 				}
 				completion(thumbnail, nil)
