@@ -265,3 +265,17 @@ CMake Error at cmake/FindFFmpeg.cmake:86 (message):
 Call Stack (most recent call first):
   src/CoreAudio/CMakeLists.txt:10 (find_package)
 ```
+
+
+```bash
+[/Volumes/SystemRoot/usr/local/bin]$
+
+//
+usr/local/bin/darling
+
+// 가상환경 시작
+./darling shell
+
+// 가상환경 종료
+./darling shutdown
+```
