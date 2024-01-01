@@ -196,6 +196,10 @@ iOSInjectionProject/
 
 https://github.com/kholia/OSX-KVM
 
+- 외국사람은 성공함  macOS in QEMU VM tutorial for beginners - September 2023 - 91623ac4 | nmariusp
+  - https://youtu.be/P2hVcwV4Pts?si=y76qy6GXtpZ7pmoZ
+
+
 
 # 4. Darling
 - 설명서 https://docs.darlinghq.org/build-instructions.html
