@@ -192,7 +192,12 @@ iOSInjectionProject/
 
 ```
 
-# 3. Darling
+# 3. OSX-KVM(macOS 가상환경 설치 LinuxOS에서 함)
+
+https://github.com/kholia/OSX-KVM
+
+
+# 4. Darling
 - 설명서 https://docs.darlinghq.org/build-instructions.html
 
 - https://github.com/microsoft/vcpkg#installing-macos-developer-tools
