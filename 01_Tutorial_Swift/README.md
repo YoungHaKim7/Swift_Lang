@@ -18,5 +18,5 @@ https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 
 <hr />
 
-# SwiftUI Fundamentals | FULL COURSE | Beginner Friendly | Sean Allen
+# (230906)SwiftUI Fundamentals | FULL COURSE | Beginner Friendly | Sean Allen
 - https://youtu.be/b1oC7sLIgpI?si=CbAvYSNOprDiMogi
