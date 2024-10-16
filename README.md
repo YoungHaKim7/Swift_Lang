@@ -88,6 +88,7 @@ https://github.com/swift-server/vscode-swift/blob/main/docs/remote-dev.md
 <hr>
 
 # .gitignore (Swift)
+- https://github.com/github/gitignore/blob/main/Swift.gitignore
 
 ```
 # Xcode
