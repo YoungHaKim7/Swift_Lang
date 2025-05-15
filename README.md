@@ -37,6 +37,11 @@ swift run MyCLIAdd
 
 <hr>
 
+# **[xtool - Xcode 없이 iOS 앱을 빌드하고 배포하는 도구](<https://news.hada.io/topic?id=20907&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
+- 크로스 플랫폼 Xcode 대체 도구로, SwiftPM 기반 프로젝트를 **Linux, Windows(WSL), macOS 어디서든 빌드**하고 디바이스에 .ipa로 배포 가능  
+- Xcode가 필요한 작업을 단순화하고 자동화함으로써 **CI/CD 환경**에서 유용(iOS 배포 자동화를 위해 8년동안 작업한 결과물임)  
+- iOS 앱 서명 및 설치, **Apple Deve…
+
 <hr>
 
 # Xcode
